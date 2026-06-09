@@ -49,6 +49,6 @@ function updateBigCup() {
     } else {
         remained.style.visibility = 'visible';
         // Total water required is 2 Liters, each small cup contributes 250ml (0.25L)
-        liters.innerText = `${2 - (250 * fullCups / 1000)}L`;
+        liters.innerText = `${2 - (250 * fullCups / 1000)} Litres`;
     }
 }
